@@ -19,4 +19,4 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="35" />
 </div>
 
-<img src="https://media.tenor.com/8TOFGfCSK0gAAAAC/aesthetic-anime.gif" width="100%" style="border-radius: 8px; margin-top: 10px;" alt="Aesthetic Anime Vibes" />
+<img src="https://i.pinimg.com/originals/dc/3e/cd/dc3ecdab0fa15f3bd29d1e20718648e6.gif" width="100%" style="border-radius: 8px; margin-top: 10px;" alt="Meow" />
