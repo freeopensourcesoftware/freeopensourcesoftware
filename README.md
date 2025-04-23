@@ -6,7 +6,9 @@
 
 ###
 
-<img align="right" height="400" src="https://media1.tenor.com/m/v-5E609k6VEAAAAd/anime.gif"  />
+<div align="center">
+  <img height="400" src="https://media1.tenor.com/m/v-5E609k6VEAAAAd/anime.gif"  />
+</div>
 
 ###
 
