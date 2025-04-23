@@ -1,0 +1,26 @@
+name: 🐱 Auto Cat Fetcher
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  update-cat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download random cat GIF
+        run: |
+          mkdir -p cat-assets
+          curl -L https://cataas.com/cat/gif -o cat-assets/cat.gif
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add cat-assets/cat.gif
+          git commit -m "🐱 Updated cat gif" || echo "No changes to commit"
+          git push
