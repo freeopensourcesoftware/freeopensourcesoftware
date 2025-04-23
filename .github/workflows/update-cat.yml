@@ -1,4 +1,4 @@
-name: 🐱 Auto Cat Downloader
+name: 🐱 Auto Cat Timestamp Refresher
 
 on:
   schedule:
@@ -6,21 +6,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-cat:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download random cat GIF
+      - name: Update timestamp in README
         run: |
-          mkdir -p cat-assets
-          curl -L https://cataas.com/cat/gif -o cat-assets/cat.gif
+          TIMESTAMP=$(date +%s)
+          sed -i 's|https://cataas.com/cat/gif?timestamp=.*|https://cataas.com/cat/gif?timestamp='"$TIMESTAMP"'|g' README.md
 
       - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add cat-assets/cat.gif
-          git commit -m "🐱 Updated cat gif" || echo "No changes to commit"
+          git add README.md
+          git commit -m "🔁 Update cat gif timestamp" || echo "No changes to commit"
           git push
