@@ -1,16 +1,7 @@
-<img align="left" height="400" src="https://media1.tenor.com/m/6L9IjkFsLrcAAAAd/trollface.gif"  />
-
-###
-
 <img align="left" height="300" src="https://i.pinimg.com/originals/7b/b9/ed/7bb9ed00d54da2404408d685534a36d4.gif"  />
 
 ###
 
-<div align="center">
-  <img height="400" src="https://media1.tenor.com/m/v-5E609k6VEAAAAd/anime.gif"  />
-</div>
-
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
