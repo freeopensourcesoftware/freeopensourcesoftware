@@ -1,7 +1,7 @@
 <img align="right" height="150" src="https://cataas.com/cat/gif?timestamp=1745377956" alt="Random Cat" />
 
 
-<img src="[https://media.tenor.com/W-1gQqEXJ0gAAAAC/tokyo-ghoul-kaneki.gif](https://i.pinimg.com/originals/7b/b9/ed/7bb9ed00d54da2404408d685534a36d4.gif)" width="100%" style="border-radius: 8px; margin-bottom: 10px;" alt="Banner" />
+<img src="[https://media.tenor.com/W-1gQqEXJ0gAAAAC/tokyo-ghoul-kaneki.gif](https://i.pinimg.com/originals/7b/b9/ed/7bb9ed00d54da2404408d685534a36d4.gif)" width="100%" style="border-radius: 8px; margin-bottom: 10px;" />
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="35" />
